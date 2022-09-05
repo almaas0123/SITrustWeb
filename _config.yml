@@ -1,0 +1,45 @@
+# site settings
+title: Shaikh Ul Islam Trust
+subtitle: SITrust Media
+email: sitrustmedia@gmail.com
+description: Working for Religious & Social Welfare | Propogating Love, Peace & Harmony
+baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: Madni Maskan, Mirzapur
+city: Ahmedabad 
+state: Gujarat
+zip_code: 380001
+country: India
+phone: (716) 555-5555
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: 
+  youtube : https://www.youtube.com/SiTrustOfficial
+  GitLab:
+  Google-Plus: 
+  instagram: https://www.instagram.com/sitrustofficial/
+  LinkedIn: 
+  twitter: https://twitter.com/andrewbanchich
+  facebook: https://www.facebook.com/sitrustofficial/
+  Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
